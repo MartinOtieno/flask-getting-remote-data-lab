@@ -67,3 +67,19 @@ Once all tests are passing and working code is pushed to the GitHub main branch,
 The application passes all test suites.
 * Get json data
 * Convert to Json
+
+## API Data Retrieval
+
+This project implements a reusable `GetRequester` class that:
+
+- Sends HTTP GET requests to an API endpoint
+- Retrieves response data
+- Converts the response into JSON format
+
+### Methods
+
+get_response_body()
+Returns the raw response body from the API.
+
+load_json()
+Parses the API response and converts it into JSON data structures.
